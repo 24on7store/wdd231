@@ -1,24 +1,28 @@
 
-    const buttons = document.querySelectorAll('.filter-buttons button');
-    const courses = document.querySelectorAll('.course');
+const buttons = document.querySelectorAll('.filter-buttons button');
+const courses = document.querySelectorAll('.course');
+const courseCount = document.getElementById('course-count');
 
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            const filter = button.getAttribute('data-filter');
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+    const filter = button.getAttribute('data-filter');
+    let visibleCount = 0;
 
-            courses.forEach(course => {
-                if (filter === 'all') {
-                    course.style.display = 'block';
-                } else {
-                    if (course.classList.contains(filter)) {
-                        course.style.display = 'block';
-                    } else {
-                        course.style.display = 'none';
-                    }
-                }
-            });
-        });
+    courses.forEach(course => {
+        if (filter === 'all' || course.classList.contains(filter)) {
+        course.style.display = 'block';
+        visibleCount++;
+        } else {
+        course.style.display = 'none';
+        }
     });
+
+    courseCount.textContent = `The number of courses listed is: ${visibleCount}`;
+    });
+});
+
+
+
 
 
 

@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 
@@ -27,7 +31,7 @@
     <header>
         <section class="header-sec">
             <img class="header-pic"  src="images/profile2.jpg" alt="A profile picture of mine in VR headset">
-            <h1 class="head-text">Mackison Jean Pierre</h1>
+            <h1 class="head-text"> WDD231: Dynamic Web Fundamentals-Mackison JP</h1>
         </section>
 
         <nav class="nav-bar">
@@ -35,6 +39,8 @@
             <!-- <a href="#" class="nav-branding"></a> -->
             
             <div class="nav-links" id="navLinks">
+
+                <!-- <button type="button" id="menu"></button> -->
 
 
             <ul class="nav-menu">
@@ -101,27 +107,69 @@
             </div>
         </section>
 
-        <section class="filter-section">
+        <!-- <section class="filter-section">
             <h3>Web And Computer Programming Courses</h3>
-            <!-- filter buttons-->
+        
             
             <div class="filter-buttons">
                 <button data-filter="all">All</button>
-                <button data-filter="CSE">CSE</button>
-                <button data-filter="WDD">WDD</button>
+                <button data-filter="cse">CSE</button>
+                <button data-filter="wdd">WDD</button>
             </div>
 
-            <!--Course list-->
+        
+
+            <p id="course-count">The number of courses listed is: 0</p>
+            <div class="course wdd not-taken">WDD 231</div>
+
+
+
+            
             <div class="flex-container">
-                <div class="course CSE">CSE 110</div>
-                <div class="course CSE">CSE 111</div>
-                <div class="course CSE">CSE 210</div>
-                <div class="course WDD">WDD 130</div>
-                <div class="course WDD">WDD 131</div>
-                <div class="course WDD">WDD 231</div>
+                <div class="course cse">CSE 110</div>
+                <div class="course cse">CSE 111</div>
+                <div class="course cse">CSE 210</div>
+                <div class="course wdd">WDD 130</div>
+                <div class="course wdd">WDD 131</div>
+                <div class="course wdd">WDD 231</div>
             </div>
-        </section>
-    </main>
+
+            <div class="course cse taken">CSE 110</div>
+            <div class="course cse taken">CSE 111</div>
+            <div class="course cse taken">CSE 210</div>
+            <div class="course wdd taken">WDD 130</div>
+            <div class="course wdd taken">WDD 131</div> -->
+            <section class="filter-section">
+                
+    <h3>Web And Computer Programming Courses</h3>
+
+    <!-- Filter buttons -->
+    <div class="filter-buttons">
+        <button data-filter="all">All</button>
+        <button data-filter="cse">CSE</button>
+        <button data-filter="wdd">WDD</button>
+    </div>
+
+    <p id="course-count">The number of courses listed is: 6</p>
+
+    <!-- Course list -->
+    
+    <div class="flex-container">
+        <div class="course cse taken">&#9989; CSE 110 - 2 Cr</div>
+        <div class="course cse taken">&#9989; CSE 111 - 2 Cr</div>
+        <div class="course cse taken">&#9989; CSE 210 - 2 Cr </div>
+        <div class="course wdd taken">&#9989; WDD 130 - 2 Cr </div>
+        <div class="course wdd taken">&#9989; WDD 131 - 2 Cr</div>
+        <div class="course wdd not-taken">&#10060; WDD 231 - 2 Cr</div>
+    </div>
+
+
+
+    <!-- Course count -->
+    <!-- <p id="course-count">The number of courses listed is: 6</p> -->
+    </section>
+
+</main>
 
 
     <footer> 

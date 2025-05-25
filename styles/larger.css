@@ -33,7 +33,7 @@
 
     .head-text {
         margin-left: 30%;
-        font-size: 45px;
+        font-size: 25px;
         position: relative;
         bottom: 120px;
         color: #fff;
@@ -255,9 +255,9 @@
 
 }
 .flex-container div {
-    background-color: brown;
+    /* background-color: brown; */
     box-shadow: 1px 4px 8px black;
-    color: #fff;
+    /* color: #fff; */
     margin: 5px;
     font-family: sans-serif;
     line-height: 50px;
@@ -265,6 +265,7 @@
     width: 200px;
     position: relative;
     left: 40px;
+    
 }
 
 .filter-section h3{
@@ -274,6 +275,39 @@
     color: blue;
     text-shadow: 1px 2px  brown;
 }
+
+/* Adding parts */
+.course {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 50px;
+}
+
+.not-taken {
+
+    background-color: #ffe0e0;
+    color: red;
+}
+
+.taken {
+
+    background-color: #e0ffe0;
+    color: forestgreen;
+}
+
+#course-count{
+    font-size: 18px;
+}
+
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+} */
+
+
 
 footer{
     background-color:  black;
