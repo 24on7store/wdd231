@@ -664,28 +664,12 @@ nav .fa{
 
     
 }
-/* 
-.part1, .social, credential{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-} */
 
-
-/* .fa-brands{
-    background-color: black;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 50%;
-} */
 
 #lastModified{
     position: relative;
     bottom: 15px;
 }
-
-
-
 
 
 
