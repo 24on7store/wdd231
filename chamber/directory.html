@@ -55,6 +55,7 @@
             </div>
 
         </section>
+    </header>
 
 
         <div>
@@ -67,12 +68,13 @@
 
             <section class="card1">
                 <h2>Events</h2>
+                
             </section>
+
 
             <section class="card2">
                 <h2>Current Weather</h2>
-                
-                    <p>
+                        <p>
                         75 F <br>
                         Partly Cloudy <br>
                         High: 85 <br>
@@ -80,7 +82,7 @@
                         Humidity: 34% <br>
                         Sunrise: 7:30am <br>
                         Sunset 9:59pm <br>
-                </p>
+                    </p>
                 
             </section>
 
@@ -95,26 +97,57 @@
             </section>
 
         </main>
+        <!-- <div class="view-buttons"> -->
 
-        <!-- </section> -->
+            <div class="view-buttons">
+                <button id="grid-view">⏹️ Grid</button>
+                <button id="list-view">📄 List</button>
+            </div>
 
 
-    </header>
+            <div class="directory">
+                <!-- <section class="card">
+                    <img src="../chamber/images/bus-pic1.webp" alt="Business 1 Logo">
+                    <h3>Business Name</h3>
+                    <p>Address: 123 Street</p>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Website: <a href="#">Visit</a></p>
+                </section> -->
+                <!-- Repeat cards -->
+            </div>
 
     
+
 </body>
 
 <footer>
-    <!-- ---------------JavaScript for Toggle Menu------------ -->
-<script>
-    var navLinks = document.getElementById("navLinks");
+    <section class="last-part">
+        <div class="part1">
+            <h2>Grand-Goave Chamber Commerce</h2>
+            <p>Rue Du Port Pronlonge, Haiti Ht +509 <br>
+            grandgoave509@gmail.com <br>
+            (509) 4853 11- 22
+        </p>
+        </div>
+        <div class="social">
+    
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
 
-    function showMenu(){
-        navLinks.style.right = "0"
-    }
-    function hideMenu(){
-        navLinks.style.right = "-800px"
-    }
-</script>
+        <div class="credential">
+            <p>231 WDD Class Project <br>
+                Mackison JEAN PIERRE <br>
+                &copy; <span id="copyright"></span>  Grand-Goave Chamber Commerce <br>  
+                <!-- Last Modification:  -->
+                <p id="lastModified"></p>
+        </div>
+                
+        
+    </section>
+<script src="js/directory.js"></script>
 </footer>
 </html>
