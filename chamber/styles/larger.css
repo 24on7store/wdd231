@@ -312,7 +312,6 @@ footer{
     gap: 50px;
     justify-content: center;
     text-align: left;
-    align-items: left;
     color: #f9f9f9;
     background-color: black;
     padding: 30px;
@@ -329,7 +328,6 @@ footer{
     top: 70px;
     justify-content: center;
     text-align: left;
-    align-items: left;
 }
 
 
