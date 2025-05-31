@@ -264,7 +264,7 @@ nav .fa{
 } */
 
 
-
+/* 
 .last-part{
     margin: 20px;
     color: white;
@@ -293,7 +293,7 @@ nav .fa{
 
 
 .fa-brands{
-    /* background-color: black; */
+    background-color: black; 
     margin: 5px;
     padding: 5px;
     border-radius: 50%;
@@ -302,7 +302,36 @@ nav .fa{
 #lastModified{
     position: relative;
     bottom: 15px;
+} */
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 50px;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    color: #f9f9f9;
+    background-color: black;
+    padding: 30px;
+    margin-top: 50px;
 }
+.part1 p{
+    position: relative;
+    bottom: 18px;
+}
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+}
+
 
 
 
