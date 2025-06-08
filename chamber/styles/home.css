@@ -1,0 +1,828 @@
+
+    .header-text {
+        background-color: blue;
+        width: auto;
+        height: 130px;
+        position: relative;
+        /* justify-content: center; */
+    }
+
+    .pages{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(../images/hero2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-text img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: 25px;
+    top: 9px;
+}
+
+header h1{
+    position: relative;
+    margin-left: 20px;
+    left: 120px;
+    top: 80px;
+    color:white;
+    line-height: 0.01rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+}  
+
+
+.header-text h6{
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    left: 140px;
+    bottom: 65px;
+    color: white;
+    line-height: 0.01rem;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+.header-text h1, .header-text p{
+    position: relative;
+    left: 130px;
+    bottom: 88px;
+    color: white;
+    line-height: 0.01rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+
+.header-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 1px 3px  #00000000;
+}
+.header-text p{
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}  
+
+
+/* The CTA SECTION */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+} 
+
+.cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cta .btn:hover{
+    background-color: blue;
+}
+
+.cta .btn {
+    background-color: #f44336;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+.pages nav{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    position: relative;
+    left: 70%;
+    bottom: 110px;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 20px;
+    
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.pages img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 100px;
+    /* box-shadow: 0 150px 100px black; */
+    box-shadow: 0 150px 100px  #00000000;
+    /* box-shadow: 0 15px 10px rgba(0, 0, 0, 0.9); */
+}
+
+
+nav .fa{
+    display: none;
+}
+
+
+
+    .home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        gap: 20px;
+        margin: 20px auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }  
+    
+
+
+
+/* .card1 {
+
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+} */
+
+/* .card1 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+} */
+
+/* .card1{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9)),url(../images/hero2.jpeg);
+} */
+.card1 {
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/hero.jpeg);
+    background-repeat: no-repeat;        /* Prevents repeating */
+    background-size: cover;              /* Makes image fill the container */
+    background-position: center;         /* Centers the image */
+}
+
+
+.card1 article {
+    margin-bottom: 1.5rem;
+
+}
+.card1 h3, .card1 p{
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+
+}
+.card1 h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 3px 1px black;
+}
+
+
+
+.card1 p {
+    font-size: 1rem;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+
+    .card1{
+        background-color: silver;
+        width: 700px;
+        height: 300px;
+    }  
+
+    .card2{
+        background-color: silver;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .card3{
+        background-color: rgba(192, 192, 192, 0.932);
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    } 
+
+    .card1 h2{
+        /* background-color: rgb(128, 128, 128); */
+        background-color: blue;
+        color: white;
+        text-align: start;
+        position: relative;
+        bottom: 30px;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+    }
+    .card2 h2, .card3 h2{
+        /* background-color: rgb(128, 128, 128); */
+        background-color: blue;
+        color: white;
+        text-align: start;
+        position: relative;
+        bottom: 30px;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+    }
+/* 
+    .card1 p, .card2 p, card3 p{
+        background-color: gray;
+        color: silver;
+        text-align: start;
+        position: relative;
+        bottom: 30px;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+    } */
+
+   /* Try */
+
+
+
+    .card2 p{
+        font-size: 18px;
+        line-height: 1.8rem;
+        text-align: left;
+        padding-left: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        justify-content: flex-start;
+    }
+    .card3 p{
+        font-size: 18px;
+        line-height: 3.5rem;
+        text-align: left;
+        padding-left: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+/* <!-- The Section about the businesses list --> */
+.business-card1{
+    margin-top: 80px;
+    background-color: silver;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.business-card1 img{
+    width: auto;
+    height: 100px;
+
+}
+
+
+
+/* .view-buttons{
+    margin-bottom: 10px;
+    width: 100%;
+} */
+
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+.spotlight-card img {
+    /* width: 100%; */
+    height: auto;
+    /* display: flex; */
+}
+
+/* This class will hide images */
+/* .hide-images img {
+    display: none;
+} */
+
+/* .card{
+    
+    border: 1px solid #f9f9f9;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #00000000;
+    transition: transform 0.3s ease;
+} */
+
+.spotlight{
+    
+    border: 1px solid #f9f9f9;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #00000000;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: left;
+}
+
+/* .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+} */
+.spotlight-card img {
+    /* width: 300px;
+    height: auto;
+    border-radius: 6px; */
+    /* display: grid;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+/* .card:hover {
+    transform: scale(1.02);
+} */
+/* .spotlight-card:hover {
+    transform: scale(1.02);
+} */
+
+/* .card h3 {
+    font-size: 25px;
+    text-align: center;
+} */
+/* .spotlight-card h3 {
+    font-size: 25px;
+    text-align: center;
+} */
+
+/* .credential{
+    color: blue;
+} */
+
+.spotlight-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+}
+
+
+
+
+/* new */
+#spotlight-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.spotlight-card {
+  flex: 1 1 calc(33.33% - 2rem); /* 3 cards per row on large screens */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.spotlight-card:hover {
+  transform: translateY(-5px);
+}
+
+.spotlight-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Responsive: 2 per row on tablets */
+@media (max-width: 768px) {
+  .spotlight-card {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+/* Responsive: 1 per row on phones */
+
+/* .spotlight {
+   padding: 1rem; 
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  } */
+
+
+/* .spotlight-card{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;       
+    justify-content: center;
+
+}
+.spotlight-card img{
+
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+
+
+.spotlight-container{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 50px;
+    justify-content: center;
+    text-align: left;
+ 
+    color: #f9f9f9;
+    background-color: black;
+    padding: 30px;
+    margin-top: 50px;
+}
+.part1 p{
+    position: relative;
+    bottom: 18px;
+}
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Here are the codes for smaller screen */
+
+/* @media(max-width: 768px){ */
+
+@media(max-width: 768px){
+    .header-text img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    }
+
+/* 
+    .header-text h1, p{
+    position: relative;
+    left: 130px;
+    bottom: 70px;
+    color: red;
+    line-height: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-text h1{
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 1px 3px black;
+}
+.header-text p{
+    font-size: 12.5px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+ */
+    header h1{
+        font-size: 26px;
+    position: relative;
+    margin-left: 20px;
+    left: 100px;
+    top: 75px;
+    color:white;
+    line-height: 0.01rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+}  
+
+
+.header-text h6{
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    left: 120px;
+    bottom: 30px;
+    color: white;
+    line-height: 0.01rem;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+
+    .nav-links ul li{
+        display: block;
+    }
+
+
+        .nav-links{
+        position: relative;
+        /* background: #f44336; */
+        background: black;
+        height: 100vh;
+        width: 250px;
+        top: -30px;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+
+    .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+        nav .fa{
+        display: block;
+        color: white;
+        margin: 0;
+        font-size: 22px;
+        cursor: pointer;
+        position: relative;
+        top: -30px;
+        padding-top: 25px;
+    }
+
+    nav .fa-bars{
+        color: white;
+        position: relative;
+        top: -850px;
+        left: 50px;
+    }
+
+        .home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        gap: 40px;
+        margin: 20px auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    } 
+    
+    .card1{
+        background-color: silver;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    } 
+
+    .card2{
+        background-color: silver;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .card3{
+        background-color: silver;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    } 
+
+    .card1 h2, .card2 h2, .card3 h2{
+        background-color: black;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+        font-size: 22px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+    }
+
+
+    .card2 p{
+        font-size: 16px;
+        line-height: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        bottom: 20px;
+        justify-content: left;
+        color: black;
+    
+        
+
+    }
+    .card3 p{
+        font-size: 16px;
+        line-height: 3.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        bottom: 20px;
+        justify-content: left;
+        color: black;
+    }
+
+    
+
+
+
+/* <!-- The Section about the businesses list --> */
+.business-card1{
+    margin-top: 80px;
+    background-color: silver;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.business-card1 img{
+    width: auto;
+    height: 100px;
+
+}
+
+
+
+.view-buttons{
+    margin-bottom: 10px;
+    width: 100%;
+    color: #f44336;
+}
+
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* This class will hide images */
+.hide-images img {
+    display: none;
+}
+
+.card{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    /* background-color: #f9f9f9; */
+    background-color: #f9f9f9;
+    color: black;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.card p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    top: 1px ;
+}
+
+
+
+/* About the footer */
+
+/* .last-part{
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.84);
+    
+} */
+
+
+/* footer{
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+} */
+
+/* .last-part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    gap: 250px; 
+    justify-content: center;
+} */
+
+
+footer{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    /* gap: 250px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #f9f9f9;
+    background-color: black;
+    padding: 20px;
+}
+
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: -8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+}
+
+
+

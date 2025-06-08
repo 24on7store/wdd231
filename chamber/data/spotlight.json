@@ -1,0 +1,79 @@
+{
+  "members": [
+    {
+      "name": "Taino Tech Solutions", 
+      "address": "123 Innovation Blvd, Grand-Goâve, Haiti",
+      "phone": "+509 1234-5678",
+      "website": "https://tainotech.ht",
+      "image": "images/bus-pic2.webp",
+      "membership": 3,
+      "category": "Technology"
+    },
+
+
+    {
+      "name": "Fresh Groceries", 
+      "address": "123 Innovation Blvd, Grand-Goâve, Haiti",
+      "phone": "+509 1234-5678",
+      "website": "https://tainotech.ht",
+      "image": "images/bus-pic1.webp",
+      "membership": 3,
+      "category": "Technology"
+    },
+
+
+    {
+      "name": "Café Soleil",
+      "address": "456 Beach Road, Grand-Goâve, Haiti",
+      "phone": "+509 8765-4321",
+      "website": "https://cafesoleil.ht",
+      "image": "images/bus-pic3.webp",
+      "membership": 2,
+      "category": "Food & Beverage"
+    },
+    
+    {
+      "name": "Blue Horizon Travel",
+      "address": "789 Bay Street, Grand-Goâve, Haiti",
+      "phone": "+509 2345-6789",
+      "website": "https://bluehorizon.ht",
+      "image": "images/bus-pic4.webp",
+      "membership": 1,
+      "category": "Travel"
+    }, 
+
+    {
+      "name": "Taino Beaches",
+      "address": "789 Bay Street, Grand-Goâve, Haiti",
+      "phone": "+509 2345-6789",
+      "website": "https://bluehorizon.ht",
+      "image": "images/bus-pic5.webp",
+      "membership": 1,
+      "category": "Travel"
+    },
+
+    {
+      "name": "4U  Hardware",
+      "address": "789 Bay Street, Grand-Goâve, Haiti",
+      "phone": "+509 2345-6789",
+      "website": "https://bluehorizon.ht",
+      "image": "images/bus-pic6.webp",
+      "membership": 3,
+      "category": "Travel"
+    },
+
+    {
+      "name": "Otantik Furniture",
+      "address": "789 Bay Street, Grand-Goâve, Haiti",
+      "phone": "+509 2345-6789",
+      "website": "https://bluehorizon.ht",
+      "image": "images/bus-pic7.webp",
+      "membership": 1,
+      "category": "Travel"
+    }
+
+
+    
+    
+  ]
+}
