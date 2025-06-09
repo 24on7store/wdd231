@@ -29,3 +29,32 @@ async function loadSpotlight() {
 }
 
 loadSpotlight();
+
+
+
+// -----------JavaScript for Toggle Menu----------
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-800px"
+    }
+
+
+
+
+  //Getting the Dates
+  var currentYear = new Date().getFullYear();
+
+  var copyrightParagraph = document.getElementById("copyright");
+  copyrightParagraph.innerHTML = + currentYear;
+
+  var lastModifiedParagraph = document.getElementById('lastModified');
+  var lastModifiedDate = document.lastModified;
+  lastModifiedParagraph.innerHTML = 'Last Modification: ' + lastModifiedDate;
+
+
+
+
