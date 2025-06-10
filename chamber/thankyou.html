@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Thank You For Joining!</h1>
+        <p>Here is the information you have submitted:</p>
+        <ul>
+            <li>First Name: <span id="first-name"></span></li>
+            <li>Last Name: <span id="last-name"></span></li>
+            <li>Email: <span id="email"></span></li>
+            <li>Phone: <span id="phone"></span></li>
+            <li>Business Name: <span id="org-name"></span></li>
+            <li>Submitted At: <span id="timestamp-display"></span></li>
+        </ul>
+    </main>
+
+    <footer>  </footer>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("first-name").textContent =
+        params.get("first-name");
+
+        document.getElementById("last-name").textContent =
+        params.get("last-name");
+
+        document.getElementById("email").textContent =
+        params.get("email");
+
+        document.getElementById("phone").textContent =
+        params.get("phone");
+
+        document.getElementById("org-name").textContent =
+        params.get("organization");
+
+        document.getElementById("timestamp-display").textContent =
+        params.get("timestamp.");
+    </script>
+    
+</body>
+</html>
