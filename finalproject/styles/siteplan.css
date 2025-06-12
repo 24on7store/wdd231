@@ -1,0 +1,62 @@
+*{
+    width: auto;
+    height: auto;
+}
+
+
+h1,h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: indigo;
+
+}
+
+header img{
+    width: 100px;
+    border-radius: 100%;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    bottom: 90px;
+    padding: 20px;
+}
+
+header h1{
+    position: relative;
+    left: 150px;
+    padding: 20px;
+    top: 50px ;
+}
+header h1, img{
+    position: relative;
+    flex-direction: row;
+    display: block;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+table td{
+    font-weight: 900;
+    padding: 9px;
+}
+.color1{
+    background-color: #3f51b5 ;
+}
+.color2{
+    background-color: #FFC107 ;
+}
+.color3{
+    color: #FFFFFF;
+    background-color: #212121 ;
+}
+.color4{
+    background-color: #666666 ;
+}
+.color5{
+    background-color: #FFFFFF;
+}
+
