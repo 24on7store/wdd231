@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>Grand-Goave Chamber Of Commerce</title> -->
-    <title>Join Page</title>
+    <title>Assignment: Chamber Join Page</title>
 
 
     <!-- <meta name="description" content="This is a WDD 231 project about Dynamic
@@ -19,8 +19,8 @@
     <meta property="og:url" content="https://24on7store.github.io/wdd231/">
 
 
-    <link rel="stylesheet" href="styles/join.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <!-- <link rel="stylesheet" href="styles/join.css"> -->
+    <link rel="stylesheet" href="styles/larger.css">
 
     <!-- <meta property="og:url" content="https://github.com/24on7store/wdd131"> -->
     <meta property="og:url" content="https://24on7store.github.io/wdd231/chamber/directory.html">
@@ -32,7 +32,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> -->
 </head>
@@ -67,7 +67,7 @@
         </div>
     </header>
     <main>
-        <h1>Membership Application</h1>
+        <h1>Chamber Join Page</h1>
         <form method="get" action="thankyou.html">
         <!-- --- First Name --- -->
         <label>
@@ -84,8 +84,7 @@
         <!-- --- Organizational Title --- -->
         <label>
             Organizational Title:
-            <input type="text"  name="orgtitle" required title="Organizational Title" autocomplete="organizational-title"
-            placeholder="[A-Za-s,v-b-b-k-pl-]" />
+            <input type="text"  name="orgtitle" required title="Organizational Title" autocomplete="organizational-title" pattern="[A-Za-s,v-b-b-k-pl-]" />
         </label>
 
 
@@ -115,7 +114,7 @@
                 <option value="">Select a level</option>
                 <option value="NP">NP Membership</option>
                 <option value="Bronze">Bronze Membership</option>
-                <option value="Silver">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
                 <option value="Gold">Gold Membership</option>
             </select>
         </label>
@@ -137,6 +136,18 @@
         <section id="membership-cards">
             <div class="card">
                 <h2>NP Membership</h2>
+                <a href="" data-modal="np-modal">More Info</a>
+            </div>
+            <div class="card">
+                <h2>Bronze Membership</h2>
+                <a href="" data-modal="np-modal">More Info</a>
+            </div>
+            <div class="card">
+                <h2>Silver Membership</h2>
+                <a href="" data-modal="np-modal">More Info</a>
+            </div>
+            <div class="card">
+                <h2>Gold Membership</h2>
                 <a href="" data-modal="np-modal">More Info</a>
             </div>
         </section>
