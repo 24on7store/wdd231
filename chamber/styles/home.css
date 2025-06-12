@@ -468,11 +468,11 @@ footer{
 /* @media(max-width: 768px){ */
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .spotlight-card {
         flex: 1 1 calc(50% - 1rem);
 }
-}
+} */
 
 @media(max-width: 768px){
     .header-text img{
