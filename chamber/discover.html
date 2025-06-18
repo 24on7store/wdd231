@@ -19,7 +19,13 @@
     <meta property="og:url" content="https://24on7store.github.io/wdd231/">
 
 
-    <link rel="stylesheet" href="styles/larger.css">
+    <!-- <link rel="stylesheet" href="styles/larges.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/smalls.css"> -->
+    
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/smaller.css">
 
     <!-- <meta property="og:url" content="https://github.com/24on7store/wdd131"> -->
     <meta property="og:url" content="https://24on7store.github.io/wdd231/chamber/directory.html">
@@ -38,6 +44,7 @@
 
 <body>
     <header>
+        <!-- Do not chang anything here -->
         <h1>Grand-Goâve</h1>
         <section class="header-text">
                 
@@ -65,57 +72,32 @@
             </nav>
         </div>
     </header>
-    <main>
-        <h1 class="home-text">Home</h1>
+
+    <main class="core">
+
+        <!-- <h2 class="home-text">The Discovery Page</h2> -->
 
         <!-- <div>
             <h1 class="home-text">Home</h1>
         </div> -->
 
         <!-- <section class="home"> -->
-            <div class="home">
-                
-
-            <section class="card1">
-                <h2>Events</h2>
-                
-            </section>
-
-            <section class="card2">
-                <h2>Current Weather</h2>
-                        <p>
-                        75 F <br>
-                        Partly Cloudy <br>
-                        High: 85 <br>
-                        Low: 52 <br>
-                        Humidity: 34% <br>
-                        Sunrise: 7:30am <br>
-                        Sunset 9:59pm <br>
-                    </p>
-                
-            </section>
-
-            <section class="card3">
-                <h2>Weather Forecast</h2>
-
-                <p>
-                    Today: 89 F <br>
-                    Wednesday: 75 F <br>
-                    Thursday: 70 F<br>  
-                </p>
-            </section>
-
-            </div>
+        <div class="home">
+        <h1>Discover Our Area</h1>
+        <div class="sidebar" id="visit-message"></div>
+        <section class="grid-container" id="card-container">
+        </section>
+        </div>
     </main>
         <!-- <div class="view-buttons"> -->
-
+<!-- 
             <div class="view-buttons">
                 <button id="grid-view">⏹️ Grid</button>
                 <button id="list-view">📄 List</button>
-            </div>
+            </div> -->
 
 
-            <div class="directory">
+            <!-- <div class="directory"> -->
                 <!-- <section class="card">
                     <img src="../chamber/images/bus-pic1.webp" alt="Business 1 Logo">
                     <h3>Business Name</h3>
@@ -124,9 +106,13 @@
                     <p>Website: <a href="#">Visit</a></p>
                 </section> -->
                 <!-- Repeat cards -->
-            </div>
+            <!-- </div>  -->
 
-            <footer>
+
+
+
+            <!-- Do not chang anything here -->
+            <footer class="end">
 
                 <!-- <section class="last-part"> -->
                 <div class="part1">
@@ -155,7 +141,8 @@
                 <!-- </section> -->
             </footer>
 
-        <script src="scripts/directory.js">
+        <!-- <script src="scripts/directory.js"> -->
+        <script src="scripts/discover.js">
         </script>
 </body>
 </html>

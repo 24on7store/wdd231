@@ -1,0 +1,63 @@
+[
+
+    {
+
+        "title": "Taino Tech Solutions", 
+        "img": "images/bus-pic2.webp",
+        "address": "123 Innovation Blvd, Grand-Goâve, Haiti",
+        "description": "Where you can spend a best weekend"
+    },
+
+    {
+        "title": "Fresh Groceries", 
+        "img": "images/bus-pic1.webp",
+        "address": "123 Innovation Blvd, Grand-Goâve, Haiti",
+        "description": "Technology"
+    },
+
+
+    {
+        "title": "Café Soleil",
+        "img": "images/bus-pic3.webp",
+        "address": "456 Beach Road, Grand-Goâve, Haiti",
+        "description": "Food & Beverage"
+    },
+    
+    {
+        "title": "Blue Horizon Travel",
+        "img": "images/bus-pic4.webp",
+        "address": "789 Bay Street, Grand-Goâve, Haiti",
+        "description": "Travel"
+    }, 
+
+    {
+        "title": "Taino Beaches",
+        "img": "images/bus-pic5.webp",
+        "address": "789 Bay Street, Grand-Goâve, Haiti",
+        "description": "Where Relaxation Meets Purpose"
+    },
+
+    {
+        "title": "4U  Hardware",
+        "img": "images/bus-pic6.webp",
+        "address": "789 Bay Street, Grand-Goâve, Haiti",
+        "description": "Where To Get Best Tools"
+    },
+
+    {
+        "title": "Otantik Furniture",
+        "img": "images/bus-pic7.webp",
+        "address": "789 Bay Street, Grand-Goâve, Haiti",
+        "description": "Where To Buy The Best Furnuture"
+    },
+
+    {
+
+        "title": "Community Park",
+        "img": "images/park.webp",
+        "address": "456 Greenway Blvd",
+        "description": "Perfect for family outings and sports."
+    }
+
+]
+
