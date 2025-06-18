@@ -221,9 +221,9 @@ main.core {
 }
 
 
-.home h1{
+.core h1{
     border-left: 4px solid blue;
-    width: 300px;
+    width: auto;
     height: auto;
     color: maroon;
     font-weight: 900;
