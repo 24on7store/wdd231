@@ -1,0 +1,72 @@
+/* final/styles/base.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #212121;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    background: #3F51B5;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+form{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a.active {
+    border-bottom: 2px solid #FFC107;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.dynamic-content, .shoe-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.shoe-card, .shoe-grid img {
+    width: 200px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+}

@@ -1,0 +1,228 @@
+/* final/styles/base.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-position: center;
+    margin: 0;
+    background: #fff;
+    color: #212121;
+}
+
+h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #3F51B5;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.intro h2{
+    background-color: #FFC107;
+    width: 275px;
+    border-left: 4px solid #3F51B5;
+    padding-left: 10px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.intro p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+
+}
+
+header {
+    background: #3F51B5;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.87),rgba(4,9,30,0.87)),url(/finalproject/images/main.webp);
+    height: auto;
+}
+
+.video h1{
+    color: white;
+    font-weight: 900;
+}
+
+.move{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.move li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.move{
+    text-decoration: none;
+    font-size: 18px;
+}
+.gallery h2{
+    border-left: 4px solid #FFC107;
+    background-color: #3F51B5;
+    color: white;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 240px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a.active {
+    border-bottom: 2px solid #FFC107;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.dynamic-content, .shoe-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.shoe-card, .shoe-grid img {
+    width: 200px;
+    /* border: 1px solid #eee; */
+    border: 1px solid #eee;
+    box-shadow: 4px 10px #212121;
+
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+
+.shoe-card img{
+    width: 200px;
+    
+}
+
+/* The codes for the footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 50px;
+    justify-content: center;
+    text-align: left;
+    color: #f9f9f9;
+    background-color: black;
+    padding: 30px;
+    margin-top: 50px;
+}
+.part1 p{
+    position: relative;
+    bottom: 18px;
+}
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Medium screen */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    
+
+footer{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    /* gap: 250px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #f9f9f9;
+    background-color: black;
+    padding: 20px;
+
+    position: relative;
+    /* bottom: 650px; */
+    margin-bottom: 0;
+}
+
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: -8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+}
+
+
+
+/* Small screen */
+@media (min-width: 320px) and (max-width: 640px) {
+    
+footer{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    /* gap: 250px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #f9f9f9;
+    background-color: black;
+    padding: 20px;
+
+    position: relative;
+    /* bottom: 650px; */
+    margin-bottom: 0;
+}
+
+.social{
+    color: white;
+    display: block;
+    position: relative;
+    top: -8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
