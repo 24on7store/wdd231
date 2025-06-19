@@ -149,6 +149,13 @@ footer{
     text-align: left;
 }
 
+.video a {
+    
+    text-decoration: none;
+    color:#FFC107; 
+}
+
+
 /* Medium screen */
 
 @media (min-width: 641px) and (max-width: 1024px) {
@@ -179,6 +186,12 @@ footer{
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.video a {
+    
+    text-decoration: none;
+    color:#FFC107; 
 }
 
 }
@@ -213,6 +226,12 @@ footer{
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.video a {
+    
+    text-decoration: none;
+    color:#FFC107; 
 }
 
 }
