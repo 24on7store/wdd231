@@ -17,9 +17,8 @@ h1{
 }
 
 .intro h2{
-    background-color: #FFC107;
+    background-color: #3F51B5;
     width: 275px;
-    border-left: 4px solid #3F51B5;
     padding-left: 10px;
     margin-left: 5px;
     font-weight: 900;
@@ -61,7 +60,6 @@ header {
     font-size: 18px;
 }
 .gallery h2{
-    border-left: 4px solid #FFC107;
     background-color: #3F51B5;
     color: white;
     margin-left: 10px;
@@ -250,7 +248,7 @@ footer{
 
     .nav-links{
         position: absolute;
-        background: #FFC107;
+        background: black;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -288,12 +286,12 @@ footer{
 }
 
 nav a{
-    color: blue;
+    color: #FFC107;
     font-weight: 900;
 }
 
 nav .fa-times{
-    color: blue;
+    color: #FFC107;
 }
 
 /* .nav-links ul li a {
