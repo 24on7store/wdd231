@@ -26,12 +26,18 @@
     <img src="images/logo.png" alt="MaBoutique Logo" class="logo">
     <h1>Contact Us</h1>
     <nav>
-        <ul>
-        <li><a href="final.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-        <li><a href="video.html">Video</a></li>
-        </ul>
+        
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="final.html">Home </a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     </header>
 
@@ -82,5 +88,15 @@
     <!-- <p>&copy; 2025 MaBoutique | All rights reserved</p> -->
     <!-- <p><a href="video.html">Watch Video Demo</a></p> -->
     </footer>
+    <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
 </body>
 </html>

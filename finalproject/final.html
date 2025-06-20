@@ -25,13 +25,49 @@
     <header>
     <img src="images/logo.png" alt="MaBoutique Logo" class="logo">
     <h1>MaBoutique</h1>
-    <nav>
-        <ul>
-        <li><a href="final.html" class="active">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="video.html">Video</a></li>
-        </ul>
+    <!-- <nav>
+        <div class="nav-links" id="navLinks"></div>
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="final.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> -->
+
+
+        <!-- <nav>
+        
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home </a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Choose A Program</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                
+            </ul>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> -->
+        <nav>
+        
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="final.html">Home </a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     </header>
 
@@ -78,6 +114,17 @@
     <!-- <p>&copy; 2025 MaBoutique | All rights reserved</p> -->
     <!-- <p><a href="video.html">Watch Video Demo</a></p> -->
     </footer>
+    <!-- ---------------JavaScript for Toggle Menu------------ -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
 
     <script type="module" src="scripts/main.js"></script>
 </body>

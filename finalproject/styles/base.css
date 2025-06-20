@@ -82,7 +82,10 @@ nav a {
     font-weight: 600;
 }
 
-nav a.active {
+/* nav a.active {
+    border-bottom: 2px solid #FFC107;
+} */
+nav a:hover {
     border-bottom: 2px solid #FFC107;
 }
 
@@ -155,6 +158,10 @@ footer{
     color:#FFC107; 
 }
 
+nav .fa{
+    display: none;
+}
+
 
 /* Medium screen */
 
@@ -193,6 +200,8 @@ footer{
     text-decoration: none;
     color:#FFC107; 
 }
+
+
 
 }
 
@@ -233,6 +242,68 @@ footer{
     text-decoration: none;
     color:#FFC107; 
 }
+
+/* Hamburger Menu*/
+    .nav-links li a{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2; 
+        transition: 1s;
+        font-size: 20px;
+        display: block;
+        flex-direction: column;
+    }
+
+    
+
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        position: relative;
+        top: -10px;
+    }
+/* Make list items stack vertically */
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links ul li {
+    margin: 10px 0;
+}
+
+/* .nav-links ul li a {
+    text-decoration: none;
+    color: #333;
+} */
+
+
+    nav .fa-bars{
+        /* color: blue; */
+        position: relative;
+        left: 250px;
+        top: -100px;
+    }
+
+        .nav-links ul{
+        padding: 30px;
+    }
+
 
 }
 
